@@ -2,6 +2,14 @@ name: Actions Workflow
 
 on:
   push:
+    # branches:
+    #   - "master"
+    #   - "!develop" # ! means ignore 
+    # paths:
+    #   - "**.py"
+    #   - "!**.js" # ! means ignore
+  # schedule:
+  #   - cron: "0/5 * * * *"
   pull_request:
     types: [closed, assigned, opened, reopened]
 
