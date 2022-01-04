@@ -1,7 +1,7 @@
 name: Actions Workflow
 
 on:
-  push:
+  # push:
     # branches:
     #   - "master"
     #   - "!develop" # ! means ignore 
